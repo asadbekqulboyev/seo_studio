@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.contents {
+  padding: 75px 0;
+  background: #F0F6FF;
+}
+.contents .section_title {
+  margin-bottom: 15px;
+}
+.contents .contents_link {
+  width: 50%;
+  gap: 15px 0;
+}
+.contents .contents_link li {
+  list-style: none;
+}
+.contents .contents_link a {
+  color: #333;
+}
+.contents .contents_img {
+  width: 50%;
+}
+.contents .contents_img img {
+  object-fit: contain;
+}
+
+.price {
+  padding: 75px 0;
+}
+.price .price_list {
+  margin-top: 45px;
+}
+.price .price_item {
+  padding: 22px 22px 48px;
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.15);
+  width: calc(33.33% - 20px);
+}
+.price .price_item .price_title {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price .price_item .price_subtitle {
+  color: #00C3FF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price .price_item .price_description {
+  margin-top: 15px;
+  color: #717171;
+}
+.price .price_item .price_lists {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 23px;
+  padding: 0 !important;
+}
+.price .price_item .price_lists li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.price .price_item .price_lists li img {
+  margin-top: 5px;
+}
+.price .price_item .price_bottom .deadline {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.price .price_item .price_bottom .deadline span:not(.dedline_text) {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 7px 5px;
+  border-radius: 12px;
+  background: #FE4C1C;
+}
+.price .price_item .price_bottom .deadline .dedline_text {
+  color: #FE4C1C;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.price .price_item .price_bottom .price_sum {
+  color: #00C3FF;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.price .price_item .price_bottom .price_sum .underline {
+  color: #818181;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 10px;
+  text-decoration: line-through;
+}
+.price .price_item .price_bottom .term {
+  color: #333;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 15px;
+}
+.price .price_item .price_bottom .button {
+  display: flex;
+  border-radius: 30px;
+  background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
+  margin-top: 33px;
+  color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.price .price_item.tarif_medium .price_subtitle {
+  color: #126CC5;
+}
+.price .price_item.tarif_medium .price_bottom .price_sum {
+  color: #126CC5;
+}
+.price .price_item.tarif_medium .price_bottom .button {
+  background: linear-gradient(265deg, #7CBEFF 31.87%, #178CFF 66.24%);
+}
+.price .price_item.tarif_premium .price_subtitle {
+  color: #1C17A2;
+}
+.price .price_item.tarif_premium .price_bottom .price_sum {
+  color: #1C17A2;
+}
+.price .price_item.tarif_premium .price_bottom .button {
+  background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+}
+
+.seo_consult_form {
+  padding: 75px 0;
+  background: #F0F6FF;
+}
+.seo_consult_form .container {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+  padding: 60px 0 60px 60px;
+}
+.seo_consult_form_title {
+  color: #333;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.seo_consult_form .form {
+  width: 40%;
+}
+.seo_consult_form .form label {
+  display: flex;
+}
+.seo_consult_form .form label:nth-child(1) {
+  margin-top: 50px;
+}
+.seo_consult_form .form label:nth-child(2) {
+  margin-top: 35px;
+}
+.seo_consult_form .form label.check {
+  margin-top: 30px;
+  gap: 5px;
+}
+.seo_consult_form .form input:not([type=checkbox]) {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: 0;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+.seo_consult_form .form input[type=checkbox] {
+  margin-top: 5px;
+}
+.seo_consult_form .form .check_title .check_title_bold {
+  color: #333;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.seo_consult_form .form .check_title p {
+  color: #818181;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.seo_consult_form .form .check_title p a {
+  color: #00C3FF;
+}
+.seo_consult_form .form .button {
+  border-radius: 30px;
+  color: #FFF;
+  padding: 20px 40px;
+  background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+}
+
+.seo_information {
+  padding-top: 75px;
+  padding-bottom: 73px;
+}
+.seo_information .seo_contents {
+  margin-top: 45px;
+  gap: 0 40px;
+}
+.seo_information .seo_contents .seo_title {
+  color: #333;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.chart_content {
+  padding-top: 35px;
+}
+.chart_content .chart_title {
+  color: #333;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.chart_content .chart_subtitle {
+  color: #333;
+  margin-top: 5px;
+}
+.chart_content .chart {
+  background: #EFF5FE;
+  border-radius: 30px;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.seo_training {
+  padding: 75px 0;
+  background: #EFF5FE;
+}
+.seo_training .training_items {
+  gap: 0 40px;
+}
+.seo_training .training_title {
+  color: #00C3FF;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.forms {
+  padding: 75px 0;
+  background-color: #F0F6FF;
+}
+.forms .container {
+  border-radius: 30px;
+  background: linear-gradient(265deg rgba(254, 76, 28, 0.5) 31.48% rgba(255, 61, 0, 0.8) 67.07%);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+  padding: 50px;
+}
+
+.course {
+  padding: 75px 0;
+  background-color: #F0F6FF;
+}
+.course .course_items {
+  margin-top: 45px;
+}
+.course .course_item {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+  padding: 35px;
+  width: calc(33.33% - 20px);
+}
+.course .course_item .course_title {
+  margin-top: 15px;
+  color: #00C3FF;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+}
+.course .course_item .course_description {
+  margin-top: 15px;
+}
+
+.comments {
+  padding: 75px 0;
+}
+.comments_items {
+  margin-top: 28px;
+  gap: 40px 0;
+}
+.comments_item {
+  padding: 35px;
+  width: calc(50% - 20px);
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.comments_item .item_top {
+  gap: 15px;
+}
+.comments_item .user_name {
+  color: #333;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.comments_item .comments_info {
+  margin-top: 15px;
+}
+
+.faq {
+  padding: 75px 0;
+}
+.faq_items {
+  gap: 30px 0;
+}
+.faq__item {
+  width: calc(50% - 15px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex.between {
+  justify-content: space-between;
+}
+.flex.center {
+  justify-content: center;
+}
+.flex.end {
+  justify-content: flex-end;
+}
+.flex.start {
+  justify-content: flex-start;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.a_center {
+  align-items: center;
+}
+.flex.a_start {
+  align-items: flex-start;
+}
+.flex.a_end {
+  align-items: flex-end;
+}
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.section_title {
+  color: #333;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button {
+  padding: 20px 39px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 30px;
+  background: #FFF;
+  text-decoration: none;
+  border: 0;
+}/*# sourceMappingURL=main.css.map */

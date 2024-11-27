@@ -1,0 +1,26 @@
+.contents {
+    padding: 75px  0;
+    background: #F0F6FF;
+    .section_title{
+        margin-bottom: 15px;
+    }
+    .contents_items{
+
+    }
+    .contents_link {
+        width: 50%;
+        gap: 15px 0;
+        li{
+            list-style: none;
+        }
+        a {
+            color: #333;
+        }
+    }
+    .contents_img{
+        img{
+            object-fit: contain;
+        }
+        width: 50%;
+    }
+}

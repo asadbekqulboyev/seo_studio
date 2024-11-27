@@ -1,0 +1,32 @@
+.comments {
+    padding: 75px 0;
+
+    &_items {
+        margin-top: 28px;
+        gap: 40px 0;
+    }
+
+    &_item {
+        padding: 35px;
+        width: calc(50% - 20px);
+        border-radius: 30px;
+        background: #FFF;
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+
+        .item_top {
+            gap: 15px;
+        }
+
+        .user_name {
+            color: #333;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .comments_info{
+            margin-top: 15px;
+        }
+    }
+
+}

@@ -1,0 +1,9 @@
+.faq{
+    padding: 75px  0;
+    &_items{
+        gap: 30px 0;
+    }    
+    &__item{
+        width: calc(50% - 15px);
+    }
+}
