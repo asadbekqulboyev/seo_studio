@@ -12,7 +12,11 @@
         box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
         padding: 35px;
         width: calc(33.33% - 20px);
-
+        &:nth-child(2){
+            background-image: url(../images/star.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
         .course_title {
             margin-top: 15px;
             color: #00C3FF;

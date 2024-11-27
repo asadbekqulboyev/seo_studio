@@ -1,0 +1,122 @@
+.seo_education {
+    padding: 25px 0 53px;
+
+    .container {
+        border-radius: 30px;
+        background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+        padding: 60px;
+        color: #fff;
+
+        .section_title {
+            color: #fff;
+        }
+
+        .seo_subtitle {
+            margin-top: 13px;
+            width: 70%;
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .form {
+            width: 70%;
+            margin-top: 50px;
+
+            .form_item {
+                gap: 40px;
+                width: 100%;
+
+                label {
+                    width: calc(50% - 20px);
+                }
+
+                input {
+                    width: 100%;
+                    background: none;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #FFFFFF;
+                    font-weight: 300;
+                    color: #fff;
+
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+            }
+
+            .check {
+                gap: 5px;
+                margin-top: 30px;
+
+                input {
+                    margin-top: 2px;
+                }
+
+                .check_title {
+                    color: #FFF;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+
+                .check_link {
+                    margin-top: 4px;
+                    color: #FFF;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+
+                    a {
+                        color: #FFF;
+                    }
+                }
+            }
+
+            .button {
+                color: #00C3FF;
+                margin-top: 35px;
+            }
+        }
+
+        .edu_image {
+            position: relative;
+            width: 40%;
+
+            img {
+                top: -200px;
+                left: 10%;
+                position: absolute;
+            }
+        }
+    }
+
+    &.form_course {
+        padding: 75px 0;
+        background: #F0F6FF;
+        .container {
+            border-radius: 30px;
+            background: linear-gradient(265deg, rgba(254, 76, 28, 0.50) 31.48%, rgba(255, 61, 0, 0.80) 67.07%);
+            box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+            .section_title{
+                width: 70%;
+            }
+            .button{
+                color: #FE4C1C;
+            }
+            .edu_image{
+                img{
+                    top: -116%;
+                    left: 20%;
+                }
+            }
+        }
+       
+    }
+}

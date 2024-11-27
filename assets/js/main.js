@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 {/* // Grafik ma'lumotlari */}
 const options = {
     chart: {
@@ -56,3 +58,7 @@ const options = {
 // Grafikni yaratish
 const chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
+
+const phoneInput = document.getElementById('phone_input');
+Inputmask("+7 (999) 999-99-99").mask(phoneInput);
+})

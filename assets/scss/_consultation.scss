@@ -1,0 +1,120 @@
+.consultation {
+    padding: 75px 0;
+    background: #F0F6FF;
+    .consultation_components{
+        margin-top: 45px;
+    }
+    .consultation_content {
+        width: calc(32% - 14px);
+
+        .consultation_btn {
+            border-radius: 20px;
+            border: 2px solid #FE4C1C;
+            background: #FFF;
+            font-weight: 700;
+            padding: 16px 30px;
+            display: flex;
+            text-decoration: none;
+            color: #FE4C1C;
+        }
+
+        .consultation_title {
+            color: #333;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .consultation_action {
+            margin-top: 10px;
+        }
+
+        .consultation_cashback {
+            border-bottom: 2px solid #FE4C1C;
+            color: #FE4C1C;
+            padding-bottom: 20px;
+        }
+
+        .consultation_sum {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 10px;
+        }
+
+    }
+
+    .consultation_form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px;
+        border-radius: 30px;
+        background: linear-gradient(265deg, rgba(254, 76, 28, 0.75) 31.48%, rgba(255, 61, 0, 0.90) 67.07%);
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+        width: calc(36% - 42px);
+        .consultation_item {
+            &:last-child {
+                margin-top: 5px;
+            }
+
+            input {
+                width: 100%;
+                border: 0;
+                background: none;
+                outline: 0;
+                border-bottom: 1px solid #fff;
+
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+
+        .check {
+            gap: 5px;
+
+            .check_title {
+                color: #FFF;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 300;
+            }
+
+            .check_link {
+                color: #FFF;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 300;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+        }
+
+        .button {
+            width: fit-content !important;
+        }
+
+    }
+
+    .consultation_content_list {
+        gap: 49px;
+        width: calc(32% - 28px);
+
+        .consultation_content_item {
+            gap: 10px;
+            align-items: flex-start;
+
+            .consultation_content_title {
+                color: #333;
+                font-weight: 700;
+            }
+            .consultation_content_desciption{
+                margin-top: 5px;
+            }
+        }
+    }
+}

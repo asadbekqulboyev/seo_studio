@@ -1,9 +1,35 @@
-.faq{
-    padding: 75px  0;
-    &_items{
+.faq {
+    padding: 75px 0;
+
+    &_items {
         gap: 30px 0;
-    }    
-    &__item{
-        width: calc(50% - 15px);
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    &_item {
+        width: calc(50% - 20px);
+
+        .faq_title {
+            color: #1C17A2;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-bottom: 15px;
+            position: relative;
+            &::after{
+                content: '';
+                width: 70%;
+                height: 2px ;
+                background-color: #1C17A2;
+                display: block;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .faq_description{
+            margin-top: 15px;
+        }
     }
 }

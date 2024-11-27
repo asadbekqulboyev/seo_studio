@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import './hero';
 @import './contents';
 @import 'price';
 @import 'seo_consult_form';
@@ -8,11 +9,13 @@
 @import 'purchase';
 @import 'advantages';
 @import 'portfolio';
-
-@import 'forms';
 @import 'course';
+@import 'features';
+@import 'seo_education';
 @import 'comments';
+@import 'consultation';
 @import 'faq';
+@import 'offer';
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +30,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     background-color:#FFFFFF;
+}
+.wrapper{
+    overflow: hidden;
 }
 .container{
     max-width:1160px;
@@ -95,8 +101,8 @@ text-decoration: none;
 border: 0;
 }
 .blue{
-    color: #126CC5;
+    color: #126CC5 !important;
 }
 .blue_dark{
-    color: #1C17A2;
+    color: #1C17A2 !important;
 }

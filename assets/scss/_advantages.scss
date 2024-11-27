@@ -42,7 +42,7 @@
 
         .button {
             border-radius: 30px;
-            background:linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
+            background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
             padding: 14px 38px 13px;
             color: #fff;
             margin-top: 13px;
@@ -55,4 +55,30 @@
         }
     }
 
+}
+
+.seo_advantages {
+    padding: 75px 0 86px;
+
+    .seo_advantages_items {
+        margin-top: 31px;
+        flex-wrap: wrap;
+
+        .seo_advantages_item {
+            width: calc(25% - 20px);
+
+            .seo_adv_title {
+                margin-top: 25px;
+                color: #333;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .seo_adv_description{
+                margin-top: 10px;
+                color: #333;
+            }
+        }
+    }
 }

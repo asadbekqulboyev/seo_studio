@@ -1,0 +1,60 @@
+.features {
+    padding: 75px 0;
+
+    &_items {
+        margin-top: 45px;
+        flex-wrap: wrap;
+        gap: 40px 0;
+    }
+
+    &_item {
+        width: calc(33.33% - 20px);
+
+        .features_number {
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+        &:nth-child(2),
+        &:nth-child(5) {
+            .features_number {
+                background: linear-gradient(265deg, #7CBEFF 31.87%, #178CFF 66.24%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: transparent;
+
+            }
+        }
+
+        &:nth-child(3),
+        &:nth-child(6) {
+            .features_number {
+                background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .features_title {
+            color: #333;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            margin-top: 5px;
+        }
+
+        .features_description{
+            color: #333;
+            margin-top: 10px;
+        }
+    }
+}

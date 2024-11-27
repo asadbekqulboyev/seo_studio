@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.hero {
+  background: url("../images/hero_image.png") no-repeat right center;
+}
+
 .contents {
   padding: 75px 0;
   background: #F0F6FF;
@@ -353,6 +357,29 @@
   margin-top: 15px;
 }
 
+.seo_advantages {
+  padding: 75px 0 86px;
+}
+.seo_advantages .seo_advantages_items {
+  margin-top: 31px;
+  flex-wrap: wrap;
+}
+.seo_advantages .seo_advantages_items .seo_advantages_item {
+  width: calc(25% - 20px);
+}
+.seo_advantages .seo_advantages_items .seo_advantages_item .seo_adv_title {
+  margin-top: 25px;
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.seo_advantages .seo_advantages_items .seo_advantages_item .seo_adv_description {
+  margin-top: 10px;
+  color: #333;
+}
+
 .portfolio {
   padding: 75px 0;
 }
@@ -392,17 +419,6 @@
   margin-top: 4px;
 }
 
-.forms {
-  padding: 75px 0;
-  background-color: #F0F6FF;
-}
-.forms .container {
-  border-radius: 30px;
-  background: linear-gradient(265deg rgba(254, 76, 28, 0.5) 31.48% rgba(255, 61, 0, 0.8) 67.07%);
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
-  padding: 50px;
-}
-
 .course {
   padding: 75px 0;
   background-color: #F0F6FF;
@@ -417,6 +433,11 @@
   padding: 35px;
   width: calc(33.33% - 20px);
 }
+.course .course_item:nth-child(2) {
+  background-image: url(../images/star.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
 .course .course_item .course_title {
   margin-top: 15px;
   color: #00C3FF;
@@ -426,6 +447,155 @@
 }
 .course .course_item .course_description {
   margin-top: 15px;
+}
+
+.features {
+  padding: 75px 0;
+}
+.features_items {
+  margin-top: 45px;
+  flex-wrap: wrap;
+  gap: 40px 0;
+}
+.features_item {
+  width: calc(33.33% - 20px);
+}
+.features_item .features_number {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.features_item:nth-child(2) .features_number, .features_item:nth-child(5) .features_number {
+  background: linear-gradient(265deg, #7CBEFF 31.87%, #178CFF 66.24%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.features_item:nth-child(3) .features_number, .features_item:nth-child(6) .features_number {
+  background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.features_item .features_title {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.features_item .features_description {
+  color: #333;
+  margin-top: 10px;
+}
+
+.seo_education {
+  padding: 25px 0 53px;
+}
+.seo_education .container {
+  border-radius: 30px;
+  background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+  padding: 60px;
+  color: #fff;
+}
+.seo_education .container .section_title {
+  color: #fff;
+}
+.seo_education .container .seo_subtitle {
+  margin-top: 13px;
+  width: 70%;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.seo_education .container .form {
+  width: 70%;
+  margin-top: 50px;
+}
+.seo_education .container .form .form_item {
+  gap: 40px;
+  width: 100%;
+}
+.seo_education .container .form .form_item label {
+  width: calc(50% - 20px);
+}
+.seo_education .container .form .form_item input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: 300;
+  color: #fff;
+}
+.seo_education .container .form .form_item input::placeholder {
+  color: #fff;
+}
+.seo_education .container .form .check {
+  gap: 5px;
+  margin-top: 30px;
+}
+.seo_education .container .form .check input {
+  margin-top: 2px;
+}
+.seo_education .container .form .check .check_title {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.seo_education .container .form .check .check_link {
+  margin-top: 4px;
+  color: #FFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.seo_education .container .form .check .check_link a {
+  color: #FFF;
+}
+.seo_education .container .form .button {
+  color: #00C3FF;
+  margin-top: 35px;
+}
+.seo_education .container .edu_image {
+  position: relative;
+  width: 40%;
+}
+.seo_education .container .edu_image img {
+  top: -200px;
+  left: 10%;
+  position: absolute;
+}
+.seo_education.form_course {
+  padding: 75px 0;
+  background: #F0F6FF;
+}
+.seo_education.form_course .container {
+  border-radius: 30px;
+  background: linear-gradient(265deg, rgba(254, 76, 28, 0.5) 31.48%, rgba(255, 61, 0, 0.8) 67.07%);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.seo_education.form_course .container .section_title {
+  width: 70%;
+}
+.seo_education.form_course .container .button {
+  color: #FE4C1C;
+}
+.seo_education.form_course .container .edu_image img {
+  top: -116%;
+  left: 20%;
 }
 
 .comments {
@@ -456,14 +626,164 @@
   margin-top: 15px;
 }
 
+.consultation {
+  padding: 75px 0;
+  background: #F0F6FF;
+}
+.consultation .consultation_components {
+  margin-top: 45px;
+}
+.consultation .consultation_content {
+  width: calc(32% - 14px);
+}
+.consultation .consultation_content .consultation_btn {
+  border-radius: 20px;
+  border: 2px solid #FE4C1C;
+  background: #FFF;
+  font-weight: 700;
+  padding: 16px 30px;
+  display: flex;
+  text-decoration: none;
+  color: #FE4C1C;
+}
+.consultation .consultation_content .consultation_title {
+  color: #333;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.consultation .consultation_content .consultation_action {
+  margin-top: 10px;
+}
+.consultation .consultation_content .consultation_cashback {
+  border-bottom: 2px solid #FE4C1C;
+  color: #FE4C1C;
+  padding-bottom: 20px;
+}
+.consultation .consultation_content .consultation_sum {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.consultation .consultation_form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 30px;
+  background: linear-gradient(265deg, rgba(254, 76, 28, 0.75) 31.48%, rgba(255, 61, 0, 0.9) 67.07%);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+  width: calc(36% - 42px);
+}
+.consultation .consultation_form .consultation_item:last-child {
+  margin-top: 5px;
+}
+.consultation .consultation_form .consultation_item input {
+  width: 100%;
+  border: 0;
+  background: none;
+  outline: 0;
+  border-bottom: 1px solid #fff;
+}
+.consultation .consultation_form .consultation_item input::placeholder {
+  color: #fff;
+}
+.consultation .consultation_form .check {
+  gap: 5px;
+}
+.consultation .consultation_form .check .check_title {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+}
+.consultation .consultation_form .check .check_link {
+  color: #FFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+}
+.consultation .consultation_form .check .check_link a {
+  color: #fff;
+}
+.consultation .consultation_form .button {
+  width: fit-content !important;
+}
+.consultation .consultation_content_list {
+  gap: 49px;
+  width: calc(32% - 28px);
+}
+.consultation .consultation_content_list .consultation_content_item {
+  gap: 10px;
+  align-items: flex-start;
+}
+.consultation .consultation_content_list .consultation_content_item .consultation_content_title {
+  color: #333;
+  font-weight: 700;
+}
+.consultation .consultation_content_list .consultation_content_item .consultation_content_desciption {
+  margin-top: 5px;
+}
+
 .faq {
   padding: 75px 0;
 }
 .faq_items {
   gap: 30px 0;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
-.faq__item {
-  width: calc(50% - 15px);
+.faq_item {
+  width: calc(50% - 20px);
+}
+.faq_item .faq_title {
+  color: #1C17A2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 15px;
+  position: relative;
+}
+.faq_item .faq_title::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: #1C17A2;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.faq_item .faq_description {
+  margin-top: 15px;
+}
+
+.offer {
+  padding: 75px 0 95px;
+  background: linear-gradient(265deg, #7CBEFF 31.87%, #178CFF 66.24%);
+}
+.offer .offer_info {
+  width: calc(60% - 50px);
+}
+.offer .section_title {
+  color: #fff;
+}
+.offer .offer_description {
+  margin-top: 28px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.offer .button {
+  margin-top: 25px;
+  display: block;
+  width: fit-content;
+}
+.offer .offer_image {
+  width: calc(40% - 50px);
 }
 
 * {
@@ -482,6 +802,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   background-color: #FFFFFF;
+}
+
+.wrapper {
+  overflow: hidden;
 }
 
 .container {
@@ -546,9 +870,9 @@ body {
 }
 
 .blue {
-  color: #126CC5;
+  color: #126CC5 !important;
 }
 
 .blue_dark {
-  color: #1C17A2;
+  color: #1C17A2 !important;
 }/*# sourceMappingURL=main.css.map */
