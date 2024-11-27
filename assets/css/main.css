@@ -84,6 +84,108 @@
   line-height: normal;
 }
 
+.region {
+  padding: 75px 0;
+}
+.region .quiz_components {
+  border-radius: 30px;
+  background: #F0F6FF;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+.region .region_display {
+  padding: 45px 59px;
+  border-radius: 30px 0px 0px 30px;
+  background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+  width: 40%;
+}
+.region .region_display .region_image img {
+  width: 100%;
+  object-fit: contain;
+}
+.region .region_display .region_info {
+  margin-top: 30px;
+}
+.region .region_display .region_info .region_title {
+  color: #FFF;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.region .region_display .region_info .region_sm_title {
+  margin-top: 10px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.region .region_display .region_info .region_description {
+  margin-top: 15px;
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.region .region_quiz {
+  width: 60%;
+  padding: 70px 100px 54px;
+}
+.region .region_quiz .quiz_title {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.region .region_quiz .forms_items {
+  gap: 5px;
+  margin-top: 31px;
+}
+.region .region_quiz .forms_items label {
+  display: flex;
+  gap: 6px;
+  padding: 10px 9px 8px;
+  border-radius: 5px;
+  border: 0.5px solid #333;
+  background: #F0F6FF;
+  position: relative;
+  align-items: center;
+}
+.region .region_quiz .forms_items label input:checked ~ span {
+  background-color: #0900FF;
+  border: 0;
+}
+.region .region_quiz .forms_items label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.region .region_quiz .forms_items label span {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #333;
+}
+.region .region_quiz .button {
+  display: flex;
+  width: fit-content;
+  color: #FFF;
+  padding: 13px 20px;
+  background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+  margin: 75px auto 0;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .contents {
   padding: 75px 0;
   background: #F0F6FF;
@@ -389,6 +491,17 @@
 }
 .purchase_lists li {
   gap: 10px;
+}
+.purchase .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(214deg, #3730B2 20.76%, #0900FF 79.87%);
+  padding: 20px 40px;
+  width: fit-content;
+  margin: 45px auto 0;
+  line-height: normal;
+  color: #FFF;
 }
 
 .advantages {
