@@ -10,5 +10,11 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        &.blue{
+            color: #126CC5;
+        }
+        &.blue_dark{
+            color: #1C17A2;
+        }
     }
 }

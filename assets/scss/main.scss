@@ -5,6 +5,9 @@
 @import 'seo_information';
 @import 'chart';
 @import 'seo_training';
+@import 'purchase';
+@import 'advantages';
+@import 'portfolio';
 
 @import 'forms';
 @import 'course';
@@ -15,7 +18,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul,li,p{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family:'Roboto';
     font-size: 16px;
@@ -87,4 +93,10 @@ border-radius: 30px;
 background: #FFF;
 text-decoration: none;
 border: 0;
+}
+.blue{
+    color: #126CC5;
+}
+.blue_dark{
+    color: #1C17A2;
 }
