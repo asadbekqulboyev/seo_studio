@@ -16,6 +16,12 @@
 @import 'consultation';
 @import 'faq';
 @import 'offer';
+
+@font-face {
+    font-family: 'Microsoft Sans Serif';
+    src: url(../fonts/micross.woff);
+}
+
 * {
     margin: 0;
     padding: 0;

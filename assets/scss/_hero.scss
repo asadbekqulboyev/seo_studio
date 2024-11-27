@@ -1,3 +1,93 @@
-.hero{
-    background:url('../images/hero_image.png') no-repeat right center;
+.hero {
+    background: url('../images/hero_image.png') no-repeat right center;
+    padding-bottom: 65px;
+    .hero_title {
+        color: #333;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .hero_info {
+        width: calc(50% - 32px);
+
+        .hero_action {
+            color: #333;
+            font-family: "Microsoft Sans Serif";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 28px;
+        }
+
+        .hero_lists {
+            margin-top: 48px;
+            color: #333;
+            font-family: "Microsoft Sans Serif";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            gap: 15px 0;
+            li{
+                gap: 10px;
+                img{
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .hero_form {
+            margin-top: 27px;
+
+            .form_item {
+            gap: 17px;
+                input {
+                    border: 0;
+                    outline: none;
+                    padding: 19px 25px;
+                    min-width: 230px;
+                    border-radius: 30px;
+                    background: #F4F4F4;
+                }
+
+            }
+
+            .button_hero {
+                cursor: pointer;
+                border: 0;
+                outline: 0;
+                border-radius: 30px;
+                background: linear-gradient(214deg, #3077B2 20.76%, #0900FF 79.87%);
+                padding: 19px 65px;
+                color: #FFF;
+                text-align: center;
+                font-size: 18px;
+                line-height: normal;
+                font-weight: 700;
+            }
+
+            .check {
+                margin-top: 15px;
+                gap: 5px;
+                .check_title_bold {
+                    color: #333;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+
+                p{
+                    color: #818181;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+            }
+        }
+    }
 }
