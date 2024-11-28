@@ -474,6 +474,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  padding-top: 30px;
 }
 @media (max-width: 768px) {
   .price .price_item .price_bottom .deadline {
@@ -1066,6 +1067,12 @@
   padding: 14px 38px 13px;
   color: #fff;
   margin-top: 13px;
+}
+.advantages_item .button.standart {
+  background: linear-gradient(265deg, #7CBEFF 31.87%, #178CFF 66.24%);
+}
+.advantages_item .button.premium {
+  background: linear-gradient(214deg, rgba(55, 48, 178, 0.9) 20.76%, rgba(9, 0, 255, 0.9) 79.87%);
 }
 .advantages_item .adv_info {
   color: #00C3FF;
@@ -1770,6 +1777,7 @@
   background: none;
   outline: 0;
   border-bottom: 1px solid #fff;
+  color: #fff;
 }
 .consultation .consultation_form .consultation_item input::placeholder {
   color: #fff;
