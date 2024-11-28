@@ -3,11 +3,31 @@
     .portfolio_top{
         padding: 60px;
         border-bottom: 2px solid #C5C5C5;
+        @media (max-width:1024px) {
+            padding: 35px;
+        }
+        @media (max-width:768px) {
+            padding: 40px 30px 38px;
+            flex-direction: column;
+            gap: 22px  0;
+        }
+        @media (max-width:768px) {
+            padding: 30px 16px 28px 20px ;
+            flex-direction: column;
+            gap: 10px  0;
+        }
     }
     .portfoli_content {
+        margin-top: 45px;
         border-radius: 30px;
         background: #FFF;
         box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
+        @media (max-width:1024px) {
+            margin-top: 36px;
+        }
+        @media (max-width:556px) {
+            margin-top: 25px;
+        }
     }
 
     &_title {
@@ -16,12 +36,35 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        @media (max-width:556px) {
+            font-size: 22px;
+        }
     }
     .portfolio_component{
         padding: 60px;
+        @media (max-width:1024px) {
+        padding: 35px;
+        }
+        @media (max-width:768px) {
+            padding:22px 30px 47px;
+            }
+            @media (max-width:768px) {
+                padding:28px 15px 41px 20px;
+                }
         .portfolio_lists{
             margin-top: 30px;
             gap: 70px;
+            @media (max-width:1024px) {
+                gap: 10px;
+            }
+            @media (max-width:768px) {
+               flex-direction: column;
+               gap: 18px;
+            }
+            @media (max-width:556px) {
+                margin-top: 24px;
+                gap: 15px;
+             }
             .portfolio_list{
                 display: flex;
                 flex-direction: column;

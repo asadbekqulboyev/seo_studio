@@ -1,25 +1,90 @@
 .hero {
     background: url('../images/hero_image.png') no-repeat right center;
     padding-bottom: 65px;
+
+    @media (max-width:1024px) {
+        background-position: right 200px;
+        background-size: 50%;
+    }
+
+    @media (max-width:768px) {
+        background: url('../images/hero_tablet.png') no-repeat right 240px;
+        background-size: 45%;
+    }
+
+    @media (max-width:556px) {
+        background: url('../images/mobile556.png') no-repeat center 30%;
+        padding-bottom: 58px;
+    }
+    @media (max-width:400px) {
+        background-position:center 35%;
+
+    }
+
     .hero_title {
         color: #333;
         font-size: 30px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
+        padding-top: 60px;
+
+        @media (max-width:1024px) {
+            font-size: 24px;
+        }
+
+        @media (max-width:556px) {
+            color: #333;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            width: 100%;
+        }
+
+        br {
+            @media (max-width:768px) {
+                display: none;
+            }
+
+        }
+    }
+
+    .hero_action {
+        color: #333;
+        font-family: "Microsoft Sans Serif";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 48%;
+        margin-top: 28px;
+
+        @media (max-width:1024px) {
+            width: 100%;
+        }
+
+        @media (max-width:556px) {
+            margin-top: 12px;
+            color: #333;
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
     }
 
     .hero_info {
         width: calc(50% - 32px);
 
-        .hero_action {
-            color: #333;
-            font-family: "Microsoft Sans Serif";
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            margin-top: 28px;
+        @media (max-width:1024px) {
+            width: 60%;
+        }
+
+        @media (max-width:556px) {
+            width: 100%;
         }
 
         .hero_lists {
@@ -31,9 +96,33 @@
             font-weight: 400;
             line-height: normal;
             gap: 15px 0;
-            li{
+
+            @media (max-width:1024px) {
+                margin-top: 60px;
+            }
+
+            @media (max-width:556px) {
+                padding-top: 350px;
+                margin-top: 0;
+            }
+            @media (max-width:400px) {
+                padding-top: 380px;
+            }
+
+
+            li {
                 gap: 10px;
-                img{
+
+                @media (max-width:556px) {
+                    color: #333;
+                    font-size: 16px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                img {
                     margin-top: 5px;
                 }
             }
@@ -41,9 +130,14 @@
 
         .hero_form {
             margin-top: 27px;
+
             .form_item {
-            gap: 17px;
-            input {
+                gap: 17px;
+                @media (max-width:556px) {
+                    flex-direction: column;
+                    gap: 15px;
+                }
+                input {
                     border: 0;
                     outline: none;
                     padding: 19px 25px;
@@ -71,20 +165,27 @@
             .check {
                 margin-top: 15px;
                 gap: 5px;
+
                 .check_title_bold {
                     color: #333;
                     font-size: 13px;
                     font-style: normal;
                     font-weight: 300;
                     line-height: normal;
+                    @media (max-width:556px) {
+                        font-size: 11px;
+                    }
                 }
 
-                p{
+                p {
                     color: #818181;
                     font-size: 10px;
                     font-style: normal;
                     font-weight: 300;
                     line-height: normal;
+                    @media (max-width:556px) {
+                        font-size: 9px;
+                    }
                 }
             }
         }

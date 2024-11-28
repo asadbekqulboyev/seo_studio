@@ -1,8 +1,30 @@
 .seo_training {
     padding: 75px 0;
     background: #EFF5FE;
+    @media (max-width:1024px) {
+        padding: 30px 0 75px;
+    }
     .training_items{
-        gap: 0 40px;
+        justify-content: space-between;
+        @media (max-width:1024px) {
+            flex-wrap: wrap;
+            gap: 40px 0;
+        }
+        @media (max-width:768px) {
+            gap: 25px 0;
+        }
+        @media (max-width:556px) {
+            gap: 35px 0;
+        }
+    }
+    .training_item{
+        width: calc(33.33% - 20px);
+        @media (max-width:1024px) {
+            width: calc(50% - 20px);
+        }  
+        @media (max-width:768px) {
+            width:100%;
+        }  
     }
     .training_title {
         color: #00C3FF;
@@ -10,6 +32,15 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        @media (max-width:768px) {
+         br{
+            display: none;
+         }
+        }
+        @media (max-width:556px) {
+            font-size: 22px;
+        }
+
         &.blue{
             color: #126CC5;
         }

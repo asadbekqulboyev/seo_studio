@@ -1,15 +1,25 @@
 .seo_education {
     padding: 25px 0 53px;
-
-    .container {
+    .seo_component{
         border-radius: 30px;
         background: linear-gradient(85deg, #00C3FF 29.32%, #7BE0FF 67.76%);
         box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);
         padding: 60px;
         color: #fff;
-
+        @media (max-width:768px) {
+            padding: 32px 11px 51px 30px;
+        }
+        @media (max-width:556px) {
+            padding: 32px 18px 51px;
+        }
         .section_title {
             color: #fff;
+            @media (max-width:768px) {
+                font-size: 30px;
+              br{
+                display: none;
+              }
+            }
         }
 
         .seo_subtitle {
@@ -20,18 +30,38 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            @media (max-width:768px) {
+                width: 95%;
+                margin-top: 33px;
+            }
+            @media (max-width:768px) {
+               width: 100%;
+               margin-top: 25px;
+            }
         }
 
         .form {
             width: 70%;
             margin-top: 50px;
-
+            @media (max-width:768px) {
+                width: 85%;
+                margin-top: 25px;
+            }
+            @media (max-width:768px) {
+                width: 100%;
+             }
             .form_item {
                 gap: 40px;
                 width: 100%;
-
+                @media (max-width:768px) {
+                    flex-direction: column;
+                    gap: 25px 0;
+                }
                 label {
                     width: calc(50% - 20px);
+                    @media (max-width:768px) {
+                        width: 100%;
+                    }
                 }
 
                 input {
@@ -52,7 +82,9 @@
             .check {
                 gap: 5px;
                 margin-top: 30px;
-
+                @media (max-width:768px) {
+                margin-top: 26px;
+                }
                 input {
                     margin-top: 2px;
                 }
@@ -72,7 +104,9 @@
                     font-style: normal;
                     font-weight: 300;
                     line-height: normal;
-
+                    @media (max-width:556px) {
+                        margin-top: 10px;
+                     }
                     a {
                         color: #FFF;
                     }
@@ -82,13 +116,19 @@
             .button {
                 color: #00C3FF;
                 margin-top: 35px;
+                @media (max-width:556px) {
+                    margin-top: 10px;
+                    width: 100%;
+                 }
             }
         }
 
         .edu_image {
             position: relative;
             width: 40%;
-
+            @media (max-width:768px) {
+                display: none;
+            }
             img {
                 top: -200px;
                 left: 10%;
@@ -100,7 +140,11 @@
     &.form_course {
         padding: 75px 0;
         background: #F0F6FF;
-        .container {
+        @media (max-width:556px) {
+            background-color: transparent;
+            padding: 18px 0 24px;
+        }
+        .seo_component {
             border-radius: 30px;
             background: linear-gradient(265deg, rgba(254, 76, 28, 0.50) 31.48%, rgba(255, 61, 0, 0.80) 67.07%);
             box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.15);

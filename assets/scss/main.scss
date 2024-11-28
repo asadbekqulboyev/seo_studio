@@ -44,6 +44,12 @@ body {
 .container{
     max-width:1160px;
     margin: 0 auto;
+    @media (max-width:1024px) {
+        max-width: 768px;
+    }
+    @media (max-width:768px) {
+        max-width: 556px;
+    }
 }
 // flex
 .flex {
@@ -90,6 +96,9 @@ font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+@media (max-width:556px) {
+    font-size: 30px;
+  }
 }
 .button{
 padding: 20px 39px;

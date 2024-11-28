@@ -2,15 +2,48 @@
     padding-top: 75px;
     padding-bottom: 73px;
 
+    @media (max-width:556px) {
+        padding-top: 60px;
+    }
+
     .seo_contents {
         margin-top: 45px;
         gap: 0 40px;
+
+        @media (max-width:1024px) {
+            flex-direction: column;
+            gap: 20px 0;
+        }
+
         .seo_title {
             color: #333;
             font-size: 26px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+
+            @media (max-width:1024px) {
+                width: 100%;
+            }
+
+            @media (max-width:556px) {
+                font-size: 22px;
+            }
         }
+
+        .seo_description {
+            @media (max-width:1024px) {
+                width: 100%;
+               
+            }
+            span:not(.first){
+                @media (max-width:1024px) {
+                 margin-top: 10px;
+                display: block;   
+                }
+                
+            }
+        }
+
     }
 }

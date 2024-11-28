@@ -1,8 +1,24 @@
 .price {
     padding: 75px 0;
-
+    @media (max-width:556px) {
+        padding: 60px 0;
+    }
+    .section_title{
+        @media (max-width:556px) {
+            text-align: center;
+        }
+    }
     .price_list {
         margin-top: 45px;
+        @media (max-width:1024px) {
+           flex-wrap: wrap;
+           gap: 26px 0;
+
+        }
+        @media (max-width:556px) {
+            margin-top: 30px;
+         }
+
     }
 
     .price_item {
@@ -11,13 +27,20 @@
         background: #FFF;
         box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.15);
         width: calc(33.33% - 20px);
-
+        @media (max-width:1024px) {
+            width: calc(50% - 20px);
+        }
+        @media (max-width:768px) {
+            width:100%;
+        }
         .price_title {
             color: #333;
             font-size: 22px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            
+            
         }
 
         .price_subtitle {
@@ -39,7 +62,9 @@
             gap: 15px;
             margin-top: 23px;
             padding: 0 !important;
-
+            @media (max-width:556px) {
+                margin-top: 18px;
+            }
             li {
                 list-style: none;
                 display: flex;
@@ -58,7 +83,9 @@
                 display: flex;
                 align-items: center;
                 gap: 5px;
-
+                @media (max-width:768px) {
+                padding-top: 23px;
+                }
                 span:not(.dedline_text) {
                     color: #FFF;
                     font-size: 12px;
@@ -113,7 +140,9 @@
                 color: #fff;
                 padding-top: 16px;
                 padding-bottom: 16px;
-
+                @media (max-width:556px) {
+                    margin-top: 24px;
+                }
             }
 
         }
