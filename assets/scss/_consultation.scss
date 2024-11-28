@@ -28,7 +28,6 @@
             background: #FFF;
             font-weight: 700;
             padding: 16px 30px;
-            display: flex;
             text-decoration: none;
             color: #FE4C1C;
         }
@@ -60,8 +59,7 @@
     }
 
     .consultation_form {
-        display: flex;
-        flex-direction: column;
+       
         gap: 30px;
         padding: 40px;
         border-radius: 30px;

@@ -29,13 +29,15 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-
-        @media (max-width:556px) {
-            font-size: 20px;
-            padding: 0 20px;
+        @media (max-width:1024px) {
             br{
                 display: none;
             }
+        }
+        @media (max-width:556px) {
+            font-size: 20px;
+            padding: 0 20px;
+            
         }
     }
 
@@ -51,8 +53,6 @@
         }
 
         label {
-            display: flex;
-
             &:nth-child(1) {
                 margin-top: 50px;
 

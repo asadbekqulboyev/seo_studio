@@ -51,45 +51,7 @@ body {
         max-width: 556px;
     }
 }
-// flex
-.flex {
-    display: flex;
-    &.between {
-        justify-content: space-between;
-    }
 
-    &.center {
-        justify-content: center;
-    }
-
-    &.end {
-        justify-content: flex-end;
-    }
-
-    &.start {
-        justify-content: flex-start;
-    }
-
-    &.column {
-        flex-direction: column;
-    }
-
-    &.a_center {
-        align-items: center;
-    }
-
-    &.a_start {
-        align-items: flex-start;
-    }
-
-    &.a_end {
-        align-items: flex-end;
-    }
-    &.wrap{
-        flex-wrap: wrap;
-    }
-
-}
 .section_title{
 color: #333;
 font-size: 40px;

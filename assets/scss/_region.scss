@@ -73,7 +73,6 @@
             margin-top: 31px;
 
             label {
-                display: flex;
                 gap: 6px;
                 padding: 10px 9px 8px;
                 border-radius: 5px;
@@ -93,26 +92,20 @@
                     left: 0;
                     visibility: hidden;
                     opacity: 0;
-
                 }
-
                 span {
                     width: 26px;
                     height: 26px;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
-                    align-items: center;
                     border: .5px solid #333;
-
-                    img {}
                 }
 
             }
         }
 
         .button {
-            display: flex;
             width: fit-content;
             color: #FFF;
             padding: 13px 20px;
