@@ -321,11 +321,11 @@
   }
 }
 .contents .section_title {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 @media (max-width: 556px) {
   .contents .section_title {
-    margin-bottom: 7px;
+    margin-bottom: 22px;
   }
 }
 .contents .contents_link {
